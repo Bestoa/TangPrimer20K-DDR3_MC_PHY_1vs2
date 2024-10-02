@@ -2,7 +2,7 @@
 ipc_version=4
 file=ddr3_memory_interface
 module=DDR3_Memory_Interface_Top
-target_device=gw2a18-002
+target_device=gw2a18c-011
 type=ddr3
 version=3.0
 
@@ -18,11 +18,11 @@ CW_LATENCY=0
 DEBUG_PARAMETER_ENABLE=false
 DEBUG_PORT_ENABLE=false
 DQ_WIDTH=1
-DRAM_WIDTH=0
+DRAM_WIDTH=1
 ECC=false
 LANG=0
 MEMORY_CLK=200
-MEMORY_TYPE=1
+MEMORY_TYPE=0
 OUTPUT_DRV=0
 PARAMETER1=5
 PARAMETER2=0

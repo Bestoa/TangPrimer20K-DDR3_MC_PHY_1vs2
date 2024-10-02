@@ -57,10 +57,10 @@ module ddr3_syn_top
 assign    rst_n    = rst_nn;
 
 
-assign led[0] = ~init_calib_complete;//F16
-assign led[1] = running;//G12
-assign led[2] = ~error;//F13
-assign led[3] = ~error_flag;//F14
+assign led[0] = ~init_calib_complete;
+assign led[1] = running;
+assign led[2] = ~error;
+assign led[3] = ~error_flag;
 
 wire clk_x1;
 //LED test

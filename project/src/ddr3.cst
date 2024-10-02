@@ -7,10 +7,10 @@
 ************************************************************************/
 IO_LOC "clk" H11;
 IO_LOC "rst_nn" T2;
-IO_LOC "led[0]" F16;
-IO_LOC "led[1]" G12; 
-IO_LOC "led[2]" F13;
-IO_LOC "led[3]" F14;
+IO_LOC "led[0]" P9;
+IO_LOC "led[1]" T9; 
+IO_LOC "led[2]" P8;
+IO_LOC "led[3]" T8;
 
 IO_LOC "ddr_cs" P5; 
 IO_LOC "ddr_odt" R3; 
